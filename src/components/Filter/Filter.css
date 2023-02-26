@@ -1,0 +1,25 @@
+.genres_list {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.genre {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.genre:hover {
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+
+
+.is_selected {
+    background-color: var(--dark-blue);
+    color: #fff;
+}

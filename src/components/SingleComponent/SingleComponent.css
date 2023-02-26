@@ -1,0 +1,92 @@
+.single_component {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 350px;
+}
+.single_component-box {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 380px;
+    background-color: #fff;
+    box-shadow: 0 0 12px -5px #000;
+    border-radius: 9px;
+    color: var(--dark-blue);
+    
+}
+
+.single_component-head img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    cursor: pointer;
+}
+
+.single_component-head img:hover {
+    scale: 1.1;
+    transition: .5s;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.single_component-body {
+    padding: 10px;
+}
+
+.single_component-body h3{
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+
+.rate {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    color: #fff;
+    border-radius: 50%;
+    background-color: var(--dark-blue);
+}
+.rate-trend {
+    background-color: rgb(31, 211, 31);
+}
+
+.rate-bad {
+    background-color: rgb(243, 26, 26);
+    color: #000;
+}
+
+.rate-medium {
+    background-color: rgb(245, 245, 37);
+}
+
+.single_component-body p {
+    font-style: italic;
+    font-size: .8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titlef h3 {
+    height: 120px;
+    text-decoration: none;
+    border: red;
+}
+
+.date {
+    height: 40px;
+    text-decoration: none;
+}
+
+

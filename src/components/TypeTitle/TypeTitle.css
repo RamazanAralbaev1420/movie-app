@@ -1,0 +1,6 @@
+.type-title a {
+    color: var(--dark-blue);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2.3rem;
+}

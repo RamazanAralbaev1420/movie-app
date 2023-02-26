@@ -1,0 +1,160 @@
+:root {
+  --dark-blue: #032541;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  padding: 2rem 0;
+  position: relative;
+  top: 70px;
+}
+
+.titlef h3{
+  
+  cursor: pointer;
+  outline: none;
+}
+
+.alice-carousel__wrapper {
+  padding: 44px 0px ;
+}
+
+.category_box {
+  padding: 1.1rem 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://image.tmdb.org/t/p/w1920_and_h600_multi_faces/rGbRnRvkmrSub07ty89Vnlsh6UX.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrap_content {
+  width: 80%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap_content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.wrap_content span {
+  font-size: 1.5rem;
+}
+
+.home.main {
+  padding: 0;
+}
+
+.content_image img{
+  padding-right: 400px;
+  border-radius: 5px;
+}
+
+/* Scrolls */
+::-webkit-scrollbar {
+  height: 9px;
+  overflow: visible;
+  width: 7px;
+  background-color: #00000011;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--dark-blue);
+}
+
+.single_movie {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  position: relative;
+  top: 70px;
+  color: #fff;
+}
+
+.movie_header_title {
+  font-style: 2rem;
+}
+
+
+
+.movie_details {
+  display: flex;
+}
+
+.play_btn {
+  display: inline;
+  margin-left: 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #fff;
+}
+
+.single_movie_item {
+  width: 100%;
+  height: 310px;
+  transition: 3s;
+}
+
+.single_movie_item img{
+  width: 100%;
+  height: 250px;
+}
+
+.actors {
+  width: 600px;
+  
+}
+
+.actors img {
+  pad: 10px  ;
+}
+
+.wrap_image {
+  width: 30%;
+  display: flex;
+  padding-left: 4%;
+}
+
+
+.wrap_info {
+  width: 70%;
+}
+
+
+
+
+
